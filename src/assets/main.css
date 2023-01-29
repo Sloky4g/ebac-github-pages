@@ -1,0 +1,41 @@
+@import "./base.css";
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.base_styled_btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #1b53bc;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.base_styled_btn:hover {
+  background: #174191;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  background: #1b53bc;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+}
+
+button:hover {
+  background: #174191;
+}
